@@ -1,0 +1,61 @@
+﻿{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:30255",
+      "sslPort": 44316
+    }
+  },
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:5185",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "https": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:7064;http://localhost:5185",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "DEVPratica.Dapper.Generic.Api": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+
+        //Geral
+        "API_VERSION": "v1",
+        "APPLICATION_NAME": "Cliente",
+        "APPLICATION_TITLE": "DEVPratica.Dapper.Generic.Api - Cliente",
+        "APPLICATION_DESCRIPTION": "API de acesso aos serviços de Clientes",
+
+        //Sql
+        "SQLSERVER_HOST": "localhost,1433",
+        "SQLSERVER_DATABASE": "DEVPraticaDapperGeneric",
+        "SQLSERVER_USER": "sa",
+        "SQLSERVER_PASSWORD": "senha@1234",
+        "SQLSERVER_ADDITIONAL_CONFIGS": "MultipleActiveResultSets=True;Encrypt=True;TrustServerCertificate=True;Connection Timeout=20;"
+      }
+    }
+  }

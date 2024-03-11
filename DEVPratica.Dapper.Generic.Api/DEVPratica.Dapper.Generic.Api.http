@@ -1,0 +1,6 @@
+@DEVPratica.Dapper.Generic.Api_HostAddress = http://localhost:5185
+
+GET {{DEVPratica.Dapper.Generic.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
