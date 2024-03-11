@@ -30,9 +30,7 @@ namespace DEVPratica.Dapper.Generic.Api.Extensions
         {
             services.AddSingleton<IConnectionConfig, ConnectionConfig>(sp =>
             {
-                return new(
-                    GetDBConnectionString()
-                );
+                return new(GetDBConnectionString());
             });
 
             services.AddScoped<DbContext>();

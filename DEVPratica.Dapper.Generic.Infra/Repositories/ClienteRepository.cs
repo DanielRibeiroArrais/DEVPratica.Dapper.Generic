@@ -11,7 +11,5 @@ namespace DEVPratica.Dapper.Generic.Infra.Repositories
     public class ClienteRepository : BaseRepository, IClienteRepository
     {
         public ClienteRepository(DbContext dbContext) : base(dbContext) { }
-
-
     }
 }

@@ -10,12 +10,7 @@ namespace DEVPratica.Dapper.Generic.Api.Mapper
 
         public static MapperConfiguration RegisterMapper()
         {
-            return new MapperConfiguration(cfg =>
-            {
-                cfg.AddProfile(new DomainToDtoMap());
-                cfg.AddProfile(new DtoToProto());
-                cfg.AddProfile(new ProtoToDto());
-            });
+            return new MapperConfiguration(cfg => { });
         }
     }
 }

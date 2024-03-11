@@ -36,26 +36,5 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
-    },
-    "DEVPratica.Dapper.Generic.Api": {
-      "commandName": "Project",
-      "launchBrowser": true,
-      "launchUrl": "swagger",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development",
-
-        //Geral
-        "API_VERSION": "v1",
-        "APPLICATION_NAME": "Cliente",
-        "APPLICATION_TITLE": "DEVPratica.Dapper.Generic.Api - Cliente",
-        "APPLICATION_DESCRIPTION": "API de acesso aos serviços de Clientes",
-
-        //Sql
-        "SQLSERVER_HOST": "localhost,1433",
-        "SQLSERVER_DATABASE": "DEVPraticaDapperGeneric",
-        "SQLSERVER_USER": "sa",
-        "SQLSERVER_PASSWORD": "senha@1234",
-        "SQLSERVER_ADDITIONAL_CONFIGS": "MultipleActiveResultSets=True;Encrypt=True;TrustServerCertificate=True;Connection Timeout=20;"
-      }
     }
   }
